@@ -132,6 +132,8 @@ body {
     background-image: url(./img/googleplay-button.png);
 }
 
+/* media queries */
+
 @media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
@@ -160,5 +162,15 @@ body {
         border: 1px solid transparent;
     }
 
+}
+
+@media (max-width: 360px) {
+    .get-the-app {
+        display: none;
+    }
+    
+    .instagram-continue {
+        justify-content: start
+    }
 
 }
